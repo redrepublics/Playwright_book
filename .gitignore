@@ -1,0 +1,128 @@
+# ==============================
+# Python / runtime
+# ==============================
+
+__pycache__/
+*.pyo
+*.so
+
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# IDE
+# ==============================
+
+.vscode/
+.idea/
+*.iml
+
+# ==============================
+# OS
+# ==============================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Secrets / local config
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.secret
+
+# ==============================
+# Tests / temporary results
+# ==============================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+reports/
+artifacts/
+test-results/
+screenshots/
+videos/
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# AI / LLM temporary data
+# ==============================
+
+.cache/
+models/
+model_cache/
+hf_cache/
+
+traces/
+eval_results/
+judge_results/
+
+# ==============================
+# Local / generated data
+# ==============================
+
+data/raw/
+data/private/
+data/local/
+data/tmp/
+data/generated/
+
+# ==============================
+# Jupyter
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# Temporary files
+# ==============================
+
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ==============================
+# Build / packaging
+# ==============================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Local databases
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Misc generated files
+# ==============================
+
+*.csv
+*.jsonl
+*.trace
