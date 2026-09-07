@@ -23,3 +23,4 @@ class TestMainPage:
         browser.close()
 
 
+# playwright codegen demo.playwright.dev/todomvc/#/
